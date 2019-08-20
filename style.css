@@ -2,8 +2,6 @@
     margin: 0 auto;
 }
 
-em {
-    font-style: normal;
-    font-weight: 800;
+strong {
     text-decoration: underline;
 }
