@@ -5,3 +5,8 @@
 strong {
     text-decoration: underline;
 }
+
+#trailer {
+    text-align: center;
+    font-style: italic;
+}
