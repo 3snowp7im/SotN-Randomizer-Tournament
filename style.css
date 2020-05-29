@@ -29,7 +29,10 @@ strong {
     font-style: italic;
 }
 
-.pure-menu-link:link, .pure-menu-item a:link {
+.pure-menu-link:link,
+.pure-menu-link:visited,
+.pure-menu-item a:link,
+.pure-menu-item a:visited {
     color: #fff;
 }
 
