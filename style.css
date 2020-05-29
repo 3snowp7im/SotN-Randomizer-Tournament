@@ -12,6 +12,14 @@ body {
     margin: 0 auto;
 }
 
+a:link {
+    color: #9cf;
+}
+
+a:visited {
+    color: #c9f;
+}
+
 strong {
     text-decoration: underline;
 }
@@ -19,4 +27,25 @@ strong {
 #trailer {
     text-align: center;
     font-style: italic;
+}
+
+.pure-menu-link:link, .pure-menu-item a:link {
+    color: #fff;
+}
+
+.pure-menu-link:hover,
+.pure-menu-item a:hover {
+    animation: pulse 1s infinite;
+}
+
+@keyframes pulse {
+    0% {
+        background-color: #400000;
+    }
+    50% {
+        background-color: #580000;
+    }
+    100% {
+        background-color: #400000;
+    }
 }
