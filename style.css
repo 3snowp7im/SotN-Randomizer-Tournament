@@ -1,3 +1,13 @@
+body {
+    color: #fff;
+    background: linear-gradient(
+        180deg,
+        rgba(2,0,36,1) 0%,
+        rgba(0,0,32,1) 11%,
+        rgba(65,65,150,1) 100%
+    ) fixed;
+}
+
 #content {
     margin: 0 auto;
 }
